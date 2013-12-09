@@ -1,0 +1,79 @@
+﻿ body {
+                font: normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+                color: #222222;                
+                padding: 0 40px 0px 40px;                              
+            }
+ html{
+    height:100%;
+    background: linear-gradient(0deg, white,#66bbdd 80%) no-repeat;
+}
+
+.fullBG {
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: auto;    
+    width:100%;
+    height:100%;
+    z-index: 1;                
+}
+.background{position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: auto;    
+    width:100%;
+    height:100%;
+     }
+
+.logo{
+    position: absolute;
+   top: 10px;
+   left: 10px;
+   z-index: 1;
+}
+
+
+            .content-outer {
+                -moz-box-shadow: 0 0 20px #333333;
+                -webkit-box-shadow: 0 0 20px #333333;
+                -goog-ms-box-shadow: 0 0 20px #333333;
+                box-shadow: 0 0 20px #333333;
+                margin-bottom: 1px;
+                min-width: 640px;
+                max-width: 640px;
+                _width: 640px;
+            }
+            /*
+        .content-outer {
+        min-width: 640px;
+        max-width: 640px;
+        _width: 640px;
+        }*/
+
+            .link1 {
+                color: #330EDA;
+                font-size: 12px;
+                padding-right: 25px;
+                font-weight: bold;
+            }
+            /*2D00D2*/
+            a:link.link1 {
+                color: #330EDA;
+                text-decoration: underline;
+            }
+
+            a:active.link1 {
+                color: #330EDA;
+                text-decoration: underline;
+            }
+
+            a:visited.link1 {
+                color: #330EDA;
+                text-decoration: underline;
+            }
+
+            a:hover.link1 {
+                color: #330EDA;
+                text-decoration: none;
+            }
