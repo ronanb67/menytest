@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Wicklow Cam</title>
+    <link rel="Shortcut Icon" href="Images/favicon.ico" type="image/vnd.microsoft.icon" />
+    <script src="Meny-master/js/meny.js"></script>
+    <script src="JQuery_fullbg/jquery.fullBG.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src=//cdn.evercam.io/js/0.0.1/evercam.js></script>
+    <script src="Scripts/jquery-2.0.3.js"></script>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <link href="Meny-master/css/demo.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="meny">
+        <h2>More Cameras</h2>
+        <ul>
+            <li><a href="http://localhost:23349/Default.html">Remembrance Cam </a></li>
+            <li><a href="http://localhost:23349/cam2.html">Remembrance Cam 2</a></li>
+        </ul>
+    </div>
+    <div class="contents">        
+        <img class="background" evercam='wicklow-newcastle' refresh="1000" alt="" />
+        <img />
+    </div>
+    <script>
+        $(document).ready(function () {
+
+            Evercam.setApiUrl('http://api.evercam.io/v1');
+        });
+    </script>
+    <script>
+        // Create an instance of Meny
+        var meny = Meny.create({
+            // The element that will be animated in from off screen
+            menuElement: document.querySelector('.meny'),
+
+            // The contents that gets pushed aside while Meny is active
+            contentsElement: document.querySelector('.contents'),
+
+            // [optional] The alignment of the menu (top/right/bottom/left)
+            position: Meny.getQuery().p || 'left',
+
+            // [optional] The height of the menu (when using top/bottom position)
+            height: 200,
+
+            // [optional] The width of the menu (when using left/right position)
+            width: 280,
+
+            // [optional] Distance from mouse (in pixels) when menu should open
+            threshold: 40,
+
+            // [optional] Use mouse movement to automatically open/close
+            mouse: true,
+
+            // [optional] Use touch swipe events to open/close
+            touch: true
+        });
+
+        // API Methods:
+        // meny.open();
+        // meny.close();
+        // meny.isOpen();
+
+        // Events:
+        // meny.addEventListener( 'open', function(){ console.log( 'open' ); } );
+        // meny.addEventListener( 'close', function(){ console.log( 'close' ); } );
+
+        // Embed an iframe if a URL is passed in
+        if (Meny.getQuery().u && Meny.getQuery().u.match(/^http/gi)) {
+            var contents = document.querySelector('.contents');
+            contents.style.padding = '0px';
+            contents.innerHTML = '<div class="cover"></div><iframe src="' + Meny.getQuery().u + '" style="width: 100%; height: 100%; border: 0; position: absolute;"></iframe>';
+        }
+    </script>
+</body>
+</html>
