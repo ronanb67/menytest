@@ -16,8 +16,7 @@
 
 html,
 body {
-	height: 100%;
-	overflow: hidden;
+	height: 100%;	
 }
 
 body {
@@ -28,7 +27,7 @@ body {
 }
 
 a {
-	color: #66bbdd;
+	color: black;
 	text-decoration: none;
 
 	-webkit-transition: 0.15s color ease;
@@ -44,14 +43,15 @@ a {
 h1,
 h2 {
 	font-size: 24px;
+    margin-left:10px;
 }
 
 .meny {
 	display: none;
 	padding: 20px;
-	overflow: hidden;
-	background: linear-gradient(0deg, white,#808080 80%) no-repeat;
-	color: #66bbdd;
+	overflow: hidden;    
+	background-color : transparent;    
+	color: black;
 
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
@@ -68,7 +68,7 @@ h2 {
 			padding: 3px 10px;
 		}
 			.meny ul li:before {
-				content: '-';
+				
 				margin-right: 5px;
 				color: rgba( 255, 255, 255, 0.2 );
 			}
@@ -91,7 +91,7 @@ h2 {
 		left: 14px;
 		top: 50%;
 		margin-top: -16px;
-		border-left: 16px solid #333;
+		border-left: 16px solid white;
 	}
 	.meny-right .meny-arrow {
 		right: 14px;
@@ -112,7 +112,7 @@ h2 {
 		border-bottom: 16px solid #333;
 	}
 	.meny-active .meny-arrow {
-		opacity: 0;
+		opacity: 2000;
 
 		-webkit-transition: opacity 0.2s ease;
 		   -moz-transition: opacity 0.2s ease;

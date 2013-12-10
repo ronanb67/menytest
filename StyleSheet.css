@@ -8,8 +8,7 @@
     background: linear-gradient(0deg, white,#66bbdd 80%) no-repeat;
 }
 
-.fullBG {
-    
+.fullBG {    
     position: absolute;
     top: 0px;
     left: 0px;
@@ -19,7 +18,7 @@
     z-index: 1;                
 }
 .background{
-    position: absolute;
+    position:absolute;
     top: 0px;
     left: 0px;
     overflow: auto;    
@@ -30,7 +29,7 @@
 .logo{
     position: absolute;
    top: 10px;
-   left: 50px;
+   left: 10px;
    z-index: 1;
 }
 
