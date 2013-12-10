@@ -50,7 +50,7 @@ h2 {
 	display: none;
 	padding: 20px;
 	overflow: hidden;    
-	background-color : transparent;    
+	background: linear-gradient(0deg, white,#66bbdd 80%) no-repeat;   
 	color: black;
 
 	-webkit-box-sizing: border-box;
