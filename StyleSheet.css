@@ -20,9 +20,9 @@
 .background{
     position:absolute;
     top: 0px;
-    left: 0px;
+    left: 20px;
     overflow: auto;    
-    width:100%;
+    width:98.95%;
     height:100%;
      }
 
@@ -31,6 +31,8 @@
    top: 10px;
    left: 50px;
    z-index: 1;
+   max-height:100%;
+   max-width:100%;
 }
 
 
