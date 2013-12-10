@@ -33,25 +33,7 @@
    z-index: 1;
    max-height:100%;
    max-width:100%;
-}
-
-
-            .content-outer {
-                -moz-box-shadow: 0 0 20px #333333;
-                -webkit-box-shadow: 0 0 20px #333333;
-                -goog-ms-box-shadow: 0 0 20px #333333;
-                box-shadow: 0 0 20px #333333;
-                margin-bottom: 1px;
-                min-width: 640px;
-                max-width: 640px;
-                _width: 640px;
-            }
-            /*
-        .content-outer {
-        min-width: 640px;
-        max-width: 640px;
-        _width: 640px;
-        }*/
+}          
 
             .link1 {
                 color: #330EDA;
