@@ -49,9 +49,9 @@ h2 {
 .meny {
 	display: none;
 	padding: 20px;
-	overflow: auto;
+	overflow: hidden;
 	background: linear-gradient(0deg, white,#808080 80%) no-repeat;
-	color: #eee;
+	color: #66bbdd;
 
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
@@ -79,7 +79,6 @@ h2 {
 .meny-arrow {
 	position: absolute;
 	z-index: 10;
-
 	border: 10px solid transparent;
 
 	-webkit-transition: opacity 0.4s ease 0.4s;
@@ -160,5 +159,4 @@ h2 {
 		position: absolute;
 		bottom: 20px;
 	}
-
 
