@@ -18,7 +18,7 @@
     z-index: 1;                
 }
 .background{
-    position: absolute;
+    position:absolute;
     top: 0px;
     left: 0px;
     overflow: auto;    
