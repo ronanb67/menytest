@@ -27,13 +27,13 @@
      }
 
 .logo{
-    position: absolute;
+   position: absolute;
    top: 10px;
    left: 50px;
    z-index: 1;
    max-height:100%;
    max-width:100%;
-}          
+}      
 
             .link1 {
                 color: #330EDA;
