@@ -7,9 +7,9 @@
     height:100%;
     background: linear-gradient(0deg, white,#66bbdd 80%) no-repeat;
 }
- img{
-     height:auto;
-   max-width:100%;
+ 
+ .active{
+    border: 1px solid #f76f76;
  }
 
 .fullBG {    
